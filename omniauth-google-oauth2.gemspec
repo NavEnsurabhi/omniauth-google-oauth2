@@ -18,12 +18,12 @@ Gem::Specification.new do |gem|
   gem.files         = `git ls-files`.split("\n")
   gem.require_paths = ['lib']
 
-  gem.required_ruby_version = '>= 2.5'
+  gem.required_ruby_version = '>= 2.3'  
 
-  gem.add_runtime_dependency 'jwt', '>= 2.9.2'
-  gem.add_runtime_dependency 'oauth2', '~> 2.0'
-  gem.add_runtime_dependency 'omniauth', '~> 2.0'
-  gem.add_runtime_dependency 'omniauth-oauth2', '~> 1.8'
+  gem.add_runtime_dependency 'jwt', '~> 2.2'
+  gem.add_runtime_dependency 'oauth2', '~> 1.4' 
+  gem.add_runtime_dependency 'omniauth', '~> 1.9'  
+  gem.add_runtime_dependency 'omniauth-oauth2', '~> 1.5'
 
   gem.add_development_dependency 'rake', '~> 12.0'
   gem.add_development_dependency 'rspec', '~> 3.6'
